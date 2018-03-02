@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tt:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ERPZHSystem_fx.war">
+      <element id="artifact" artifact-name="tt:war exploded" />
+    </root>
+  </artifact>
+</component>

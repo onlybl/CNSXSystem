@@ -1,0 +1,78 @@
+#jpager{
+	clear:both;
+	height:30px;
+	line-height:30px;
+	margin-top:20px;
+	color:#999999;
+	font-size:14px;
+}
+#jpager a{
+	padding:4px 8px;
+	margin:10px 3px;
+	font-size:12px;
+	border:1px solid rgb(28,192,227);
+	background-color:#FFF;
+	color:#9d9d9d;
+	text-decoration:none;
+}
+#jpager span{
+	font-size:14px;
+}
+#jpager span.disabled{
+	padding:4px 8px;
+	margin:10px 3px;
+	font-size:12px;
+	border:1px solid rgb(28,192,227);
+	background-color:#FFF;
+	color:#DFDFDF;
+}
+#jpager span.curr{
+	padding:4px 8px;
+	margin:10px 3px;
+	font-size:12px;
+	border:1px solid rgb(28,192,227);
+	background-color:rgb(28,192,227);
+	color:#FFF;
+}
+#jpager a:hover{
+	background-color:#FFEEE5;
+	border:1px solid #FF6600;
+}
+#jpager span.normalsize{
+	font-size:14px;
+	margin:1px 1px;
+}
+#jpager_gopage_wrap{
+	display:inline-block;
+	width:42px;
+	height:24px;
+    border:1px solid #DFDFDF;
+	margin:4px 4px;
+	padding:0px;
+	position:relative;
+	top:7px;
+}
+#jpager_btn_go {
+	width:46px;
+	height:24px;
+	line-height:22px;
+	padding:0px;
+	border:1px solid rgb(28,192,227);
+	background-color:rgb(28,192,247);
+	color:#FFF;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+#jpager_btn_go_input{
+	width:40px;
+	height:22px;
+	text-align:center;
+	margin-left:0px;
+	border:0px;
+	font-size:16px;
+    top:0px;
+	position:absolute;
+	outline:none;
+}
